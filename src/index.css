@@ -13,6 +13,8 @@ ol {
 
 button {
   cursor: pointer;
+  background-color: transparent;
+  border: transparent;
 }
 
 h1,
