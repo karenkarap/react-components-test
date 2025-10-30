@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.input {
+    padding: 0.5rem 1rem;
+}
+
+.buttonEye {
+    padding: 0.5rem;
+    line-height: 0;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.closeBtn {
+    display: flex; 
+    align-items: center;
+    line-height: 0;
+}
