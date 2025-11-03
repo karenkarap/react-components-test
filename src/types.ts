@@ -3,7 +3,7 @@ export type TypesInput = 'text' | 'password' | 'number';
 export type ToastType = 'success' | 'error' | 'info' | 'warning';
 
 export interface ToastIntarface {
-  id: string;
+  id?: string;
   message: string;
   type: ToastType;
   duration?: number;

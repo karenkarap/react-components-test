@@ -23,24 +23,3 @@ export const Succes: Story = {
     type: 'success',
   },
 };
-
-export const Warning: Story = {
-  args: {
-    message: 'Warning toast',
-    type: 'warning',
-  },
-};
-
-export const Error: Story = {
-  args: {
-    message: 'Error toast',
-    type: 'error',
-  },
-};
-
-export const Info: Story = {
-  args: {
-    message: 'Info toast',
-    type: 'info',
-  },
-};
